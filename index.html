@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Uwamahoro - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .goog-te-banner-frame {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+/* Hide the Google branding */
+.goog-logo-link {
+    display: none !important;
+}
+
+/* Style the dropdown */
+.goog-te-combo {
+    font-family: 'Roboto', sans-serif !important;
+    color: #333 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    font-size: 14px !important;
+}
+    </style>
+</head>
+<body>
+
+        <!-- Language Selector -->
+ <!--       <div class="language-switcher">
+            <span>Select Language:</span>-->
+            <!--<div class="alin" style="display: inline-flex;"> -->
+            <div id="google_translate_element"></div>
+
+            <a href="#" onclick="changeLanguage('en')">
+                <img src="https://flagcdn.com/w40/gb.png" alt="English">
+            </a>
+            <a href="#" onclick="changeLanguage('fr')">
+                
+                
+                
+            <img src="https://flagcdn.com/w40/fr.png" alt="Français">
+            </a>
+        </div>
+ <!--   </div>-->
+
+    <!-- Navigation Menu -->
+    <header class="header">
+        <div class="logo"></div>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#cv">My CV</a></li>
+            <li><a href="#stage">Internship</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="burger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </header>
+    
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-image">
+            <img src="images/Izake-Photoroom.png" alt="Isaac Uwamahoro">
+        </div>
+        <div class="home-content">
+            <h1>Welcome to Isaac Uwamahoro’s Portfolio</h1>
+            <p>Passionate about web development, electrical solutions, and automation</p>
+            <a href="#about" class="cta-button">Learn more about me</a>
+        </div>
+    </section>
+
+<!-- About Me Section -->
+<section id="about" class="about-section">
+    <h2>🚀 My Journey</h2>
+    <p class="about-intro">From industrial automation to web development, I’m continuously evolving in the world of technology.</p>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">🎓</div>
+            <div class="timeline-content">
+                <h3>2018-2021 - Industrial Electricity Diploma</h3>
+                <p>Earned my diploma in <strong>Industrial Electricity</strong> at Gisenyi Technical Secondary School, gaining expertise in electrical systems and troubleshooting.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">💻</div>
+            <div class="timeline-content">
+                <h3>November 26 2024 - Web Development Journey</h3>
+                <p>Completed the <strong>Responsive Web Design</strong> certification from <strong>FreeCodeCamp</strong>, mastering mobile-first layouts, Flexbox, Grid, and accessibility best practices.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">⚙️</div>
+            <div class="timeline-content">
+                <h3>2024 - Industrial Automation Training (CIMA)</h3>
+                <p>Specialized in <strong>automated systems</strong>, machine operations, and industrial maintenance through CIMA training with GRETA Orléans.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🏆</div>
+            <div class="timeline-content">
+                <h3>2025 - LSDH Internship</h3>
+                <p>Worked as a <strong>Production Operator</strong> at <strong>LSDH (Laiterie de Saint-Denis-de-l’Hôtel)</strong>, optimizing automated production lines and gaining hands-on experience in industrial automation.</p>
+                <a href="#stage" class="cta-button">Learn more about me</a>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🧯</div>
+            <div class="timeline-content">
+                <h3>2025 - Electrical Safety & First Aid Certification</h3>
+                <p>Specialized in <strong>automated systems</strong>, machine operations, and industrial maintenance through CIMA training with GRETA Orléans.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="#contact" class="btn-primary">📩 Let's Work Together</a>
+</section>
+ 
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>CIMA (Operation and Intervention on Automated Machines):</strong> Expertise in automation, including control and maintenance of automated systems, with hands-on experience in diagnosing, optimizing, and ensuring safe and efficient system operations.</li>
+            <li><strong>Industrial Maintenance:</strong> Motor Systems, Electrical Installations, Troubleshooting</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Automation Systems:</strong> Control and Maintenance of Automated Machinery</li>
+            <li><strong>Problem-Solving and Collaboration</strong></li>
+        </ul>
+    </section>
+ 
+<!-- Industrial Electricity Competency Section -->
+<section id="electricity-skills" class="skills-section">
+    <h2>🔌 Industrial Electricity Diploma (2018–2021)</h2>
+    <p class="diploma-summary">
+        Earned my diploma in Industrial Electricity at Gisenyi Technical Secondary School.  
+        During this period, I gained a strong foundation in electrical systems, safety, and hands-on technical skills.
+    </p>
+
+    <div class="skills-grid">
+        <div class="skill-box">
+            <h3>⚙️ Electrical Circuit Design</h3>
+            <p>Design and interpret industrial schematics and wiring diagrams.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🛠️ Installation & Maintenance</h3>
+            <p>Install, maintain, and troubleshoot electrical systems and motors.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🔧 Preventive Maintenance</h3>
+            <p>Perform preventive and corrective maintenance on industrial equipment.</p>
+        </div>
+        <div class="skill-box">
+            <h3>⚡ Safety & Risk Management</h3>
+            <p>Apply electrical safety procedures and protocols in real environments.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🔌 Power Distribution</h3>
+            <p>Configure and manage three-phase motors and power systems.</p>
+        </div>
+        <div class="skill-box">
+            <h3>📐 Workshop Practice</h3>
+            <p>Hands-on training with circuits, relays, and industrial panels.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Line Operator Skills Section -->
+<section id="line-operator" class="skills-section">
+    <h2>🛠️ Line Operator – Pilote de Ligne</h2>
+    <p class="section-description">
+        During my internship at LSDH, I worked as a Line Operator (Pilote de Ligne), gaining hands-on experience in managing automated production lines and ensuring quality output in a fast-paced industrial environment.
+    </p>
+
+    <div class="skills-grid">
+        <div class="skill-box">
+            <h3>🔍 Production Monitoring</h3>
+            <p>Supervised the entire line operation and ensured continuous flow without interruptions.</p>
+        </div>
+        <div class="skill-box">
+            <h3>⚙️ Machine Startup & Shutdown</h3>
+            <p>Performed startup, reset, and shutdown according to industrial safety protocols.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🧰 Fault Detection</h3>
+            <p>Identified and corrected minor faults to reduce downtime.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🎛️ Machine Adjustments</h3>
+            <p>Adjusted parameters during product changes for optimal output.</p>
+        </div>
+        <div class="skill-box">
+            <h3>✅ Quality Control</h3>
+            <p>Checked product conformity and eliminated defective items.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🧼 Cleaning & Maintenance</h3>
+            <p>Performed cleaning and basic maintenance of the line.</p>
+        </div>
+        <div class="skill-box">
+            <h3>📋 Traceability</h3>
+            <p>Recorded data such as bottle count, codes, and shift hours.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🤝 Teamwork</h3>
+            <p>Collaborated with technicians, supervisors, and maintenance teams.</p>
+        </div>
+        <div class="skill-box">
+            <h3>🚧 Safety Compliance</h3>
+            <p>Followed PPE rules and respected safety standards in production areas.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- CV Section -->
+    <section id="cv">
+        <h2>My CV</h2>
+        <p>Click the button below to download my CV:</p>
+        <a href="cv/Cv isaac pro.pdf" download="cv" class="download-btn">Download My CV</a>
+    </section>
+
+<!-- Stage Report Section -->
+<section id="stage" class="stage-section">
+    <h2>My Internship Experience at LSDH</h2>
+    <p>During my internship at <strong>LSDH</strong> as a <strong>Production Operator</strong>, I had the opportunity to work in an industrial environment, learning how to manage and optimize automated production lines.</p>
+
+    <h3>🎯 Main Objectives</h3>
+    <ul>
+        <li>Understand the operation of an industrial production line.</li>
+        <li>Learn to start, adjust, and stop production machines.</li>
+        <li>Monitor the production process and ensure quality control.</li>
+        <li>Develop troubleshooting skills for production line issues.</li>
+    </ul>
+
+    <h3>⚙️ Machines I Worked With</h3>
+<!-- Machines Used Section -->
+<section id="machines" class="machines-section">
+    <h2>⚙️ Machines I Worked With</h2>
+    <p>Here are some of the key machines I operated during my internship at LSDH.</p>
+
+    <div class="machines-gallery">
+        <div class="machine">
+            <img src="Blower Krones.avif" alt="Blower Machine">
+            <h3>Blower Machine</h3>
+            <p>Forms plastic bottles before filling.</p>
+        </div>
+
+        <div class="machine">
+            <img src="Bloc krones.avif" alt="Bloc Machine">
+            <h3>Bloc</h3>
+            <p>Handles bottle filling and capping.</p>
+        </div>
+
+        <div class="machine">
+            <img src="Contiroll_TS.avif" alt="Contiroll Labeling Machine">
+            <h3>Contiroll</h3>
+            <p>Applies labels automatically.</p>
+        </div>
+
+        <div class="machine">
+            <img src="vario pack.jpg" alt="Vario Park">
+
+            <h3>Vario Park</h3>
+            <p>Groups bottles into packs.</p>
+        </div>
+
+        <div class="machine">
+            <img src="Robot.webp" alt="Palletizing Robot">
+            <h3>Palletizing Robot</h3>
+            <p>Stacks packed products onto pallets.</p>
+        </div>
+    </div>
+</section>
+<!-- Machines in Action Video Section -->
+<section id="machines-video" class="machines-video-section">
+    <h2>🎬 Machines in Action</h2>
+    <p>Watch the full process of machines working together during production at LSDH.</p>
+
+    <div class="video-container">
+        <video controls>
+            <source src="Presentation LSDH.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+
+    <h3>🛠️ Key Tasks & Responsibilities</h3>
+    <table class="stage-table">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Skills Acquired</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Production Line Monitoring</td>
+                <td>Ensured smooth operation and detected anomalies.</td>
+                <td>Attention to detail, problem-solving.</td>
+            </tr>
+            <tr>
+                <td>Machine Startup & Shutdown</td>
+                <td>Followed safety procedures to start and stop machines.</td>
+                <td>Technical knowledge, safety compliance.</td>
+            </tr>
+            <tr>
+                <td>Machine Adjustments</td>
+                <td>Modified settings to fit different products.</td>
+                <td>Precision, adaptability.</td>
+            </tr>
+            <tr>
+                <td>Quality Control</td>
+                <td>Checked bottles for defects and ensured compliance.</td>
+                <td>Quality assurance, attention to detail.</td>
+            </tr>
+            <tr>
+                <td>Maintenance Support</td>
+                <td>Collaborated with the maintenance team to resolve issues.</td>
+                <td>Technical troubleshooting, teamwork.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>🚀 Key Learnings & Challenges</h3>
+    <p>This internship provided hands-on experience in an industrial setting. I faced challenges such as understanding specific machine operations and troubleshooting unexpected production issues. However, with guidance from my team, I developed strong analytical and problem-solving skills.</p>
+
+    <p>You can download my detailed internship report below:</p>
+    <a href="Rapport_de_Stage_Isaac.pdf" download="Internship_Report" class="download-btn">📄 Download My Internship Report</a></section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>📩 Get in Touch</h2>
+    <p>If you'd like to connect or collaborate, feel free to reach out!</p>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/xnnjvzbz" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Social Media Links -->
+    <div class="social-icons">
+        <a href="tel:+33753157456" class="icon"><i class="fas fa-phone"></i></a>
+        <a href="https://www.linkedin.com/in/isaac-uwamahoro-9b7107318/" class="icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@gold.web7" class="icon"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/gold.web7" class="icon"><i class="fab fa-instagram"></i></a>
+    </div>
+</section>
+
+<!-- FontAwesome for Icons -->
+<script src="https://formspree.io/f/xnnjvzbz" crossorigin="anonymous"></script>
+
+<a href="https://wa.me/33753157456" class="whatsapp-button" target="_blank">
+    <img src="whatsapp icon.png" alt="Chat with us"> Chat with us
+</a> <!-- Google Translate API -->
+    
+<!-- Google Translate Element -->
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement(
+  {
+    pageLanguage: 'en',
+    includedLanguages: 'en,fr',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  },
+  'google_translate_element'
+);
+}
+</script>
+
+<!-- Load Google Translate Script (only once!) -->
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<footer>
+    <p>© 2025 Isaac Uwamahoro. Tous droits réservés.</p>
+</footer>
+</script>
+<script src="script.js"></script>
+</body>
+</html> 
